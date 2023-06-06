@@ -4,7 +4,7 @@ import './style.css';
 export const Post = () => {
     const params = useParams();
     const { id } = params;
-    const [qs, setQs] = useSearchParams();
+    const [qs] = useSearchParams();
 
     return(
         <div>
